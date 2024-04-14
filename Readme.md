@@ -7,15 +7,32 @@ This repository contains code for two linear regression models:
 ## Prerequisites
 - Python 3
 - Jupyter Notebook or any Python IDE
+- Create a virtual environment ( recommended )
 
 ## Installation
-1. Clone or download this repository to your local machine.
+1. Create a virtual environment
 
+    python -m venv venv 
+    
+2. Clone or download this repository to your local machine.
 
+    https://github.com/Pundit4Real/Linear-Regression-model.git
 
-2. Install the required Python libraries using pip:
+3. Activate the virtual environment:
 
-3. Ensure you have the datasets '50_Startups.csv' and 'students_scores.csv' in the same directory as the code.
+- On Windows:
+
+    venv\Scripts\activate
+
+- On macOS and Linux:
+
+    source venv/bin/activate
+
+4. Install the required Python libraries using pip by running the command below:
+
+    pip install -r requirements.txt
+
+5. Ensure you have the datasets '50_Startups.csv' and 'students_scores.csv' in the same directory as the code.
 
 ## Running the Models
 1. Open a terminal or command prompt.
