@@ -12,7 +12,7 @@ This repository contains code for two linear regression models:
 ## Installation
 1. Create a virtual environment
 
-    python -m venv venv 
+        python -m venv venv 
     
 2. Clone or download this repository to your local machine.
 
